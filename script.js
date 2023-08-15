@@ -11,7 +11,7 @@ document.getElementById('login-btn').addEventListener('click', function () {
     if (userEmail === 'budu@gmail.com' && userPassword === '12345') {
         window.location.href='index-2.html';
     } else (
-        alert('toi password bhu le gesos !! tore tejjo koyra dilam')
+        alert('toi password bhule gesos !! tore tejjo koyra dilam')
     )
 
 });
