@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Budur-Bank</title>
 </head>
+
 <body>
+    <header>
+        <h2 class="text-center my-10 font-semibold text-5xl">welcome to <span class="text-purple-600">budur bank</span>
+        </h2>
+    </header>
+    <main>
+        <div class="bg-green-500 w-9/12 mx-auto py-8 px-10 rounded-md">
+            <h1 class="font-semibold text-3xl text-white mb-4">Please log in</h1>
+            <input id="input-email" class="block mb-3 px-5 py-4 rounded w-9/12 text-xl" type="email" placeholder="Enter your email">
+            <input id="input-pass" class="block mb-3 px-5 py-4 rounded w-9/12 text-xl" type="password" placeholder="Enter your password">
+            <button id="login-btn" class="bg-orange-600 hover:bg-orange-500 text-xl text-white rounded-md px-10 py-3">log in</button>
+        </div>
+    </main>
     <script src="script.js"></script>
-    <script src="script-2.js"></script>
 </body>
+
 </html>
